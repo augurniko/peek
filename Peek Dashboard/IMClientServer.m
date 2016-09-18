@@ -23,7 +23,7 @@
 #pragma mark ------ ONLINE FUNCTIONS ------
 /* CHECK INTERNET CONNEXION */
 - (void)reachability {
-    
+     
     __block BOOL haveInternetConnection     = NO;
     [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
         switch (status)
