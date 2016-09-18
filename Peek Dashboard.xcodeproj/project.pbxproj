@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		040F745C1D3F1A9E00968E55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F745B1D3F1A9E00968E55 /* main.m */; };
-		040F745F1D3F1A9E00968E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F745E1D3F1A9E00968E55 /* AppDelegate.m */; };
-		040F74621D3F1A9E00968E55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F74611D3F1A9E00968E55 /* ViewController.m */; };
 		040F74651D3F1A9E00968E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F74631D3F1A9E00968E55 /* Main.storyboard */; };
 		040F74681D3F1A9E00968E55 /* Peek_Dashboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040F74661D3F1A9E00968E55 /* Peek_Dashboard.xcdatamodeld */; };
 		040F746A1D3F1A9E00968E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040F74691D3F1A9E00968E55 /* Assets.xcassets */; };
 		040F746D1D3F1A9E00968E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F746B1D3F1A9E00968E55 /* LaunchScreen.storyboard */; };
 		040F74781D3F1A9F00968E55 /* Peek_DashboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F74771D3F1A9F00968E55 /* Peek_DashboardTests.m */; };
+		040F74881D3F1EC700968E55 /* IMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F74871D3F1EC700968E55 /* IMManager.m */; };
+		040F748C1D3F1EDC00968E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F748A1D3F1EDC00968E55 /* AppDelegate.m */; };
+		040F748F1D3F1EF000968E55 /* IMLoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F748E1D3F1EF000968E55 /* IMLoaderViewController.m */; };
+		040F74921D3F229300968E55 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F74911D3F229300968E55 /* KeychainWrapper.m */; };
+		040F74941D3F233A00968E55 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F74931D3F233A00968E55 /* Security.framework */; };
+		040F74971D3F433C00968E55 /* IMCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F74961D3F433C00968E55 /* IMCreateAccountViewController.m */; };
+		040F749B1D3F4B7700968E55 /* invalid.png in Resources */ = {isa = PBXBuildFile; fileRef = 040F74991D3F4B7700968E55 /* invalid.png */; };
+		040F749C1D3F4B7700968E55 /* valid.png in Resources */ = {isa = PBXBuildFile; fileRef = 040F749A1D3F4B7700968E55 /* valid.png */; };
+		040F749F1D3F91A400968E55 /* IMClientServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F749E1D3F91A400968E55 /* IMClientServer.m */; };
+		04C36BDC1D7BC38500B761E0 /* Peek_DashboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C36BDB1D7BC38500B761E0 /* Peek_DashboardUITests.m */; };
+		04C36BE41D7C191600B761E0 /* IMCreateAccountViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C36BE31D7C191600B761E0 /* IMCreateAccountViewControllerTest.m */; };
+		DFD9897EDCEA0A5A7B39B4E0 /* libPods-Peek Dashboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 736051AD0F8F68248671DBDB /* libPods-Peek Dashboard.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		040F74741D3F1A9F00968E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040F744F1D3F1A9E00968E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040F74561D3F1A9E00968E55;
+			remoteInfo = "Peek Dashboard";
+		};
+		04C36BDE1D7BC38500B761E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 040F744F1D3F1A9E00968E55 /* Project object */;
 			proxyType = 1;
@@ -30,10 +47,6 @@
 /* Begin PBXFileReference section */
 		040F74571D3F1A9E00968E55 /* Peek Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peek Dashboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040F745B1D3F1A9E00968E55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		040F745D1D3F1A9E00968E55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		040F745E1D3F1A9E00968E55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		040F74601D3F1A9E00968E55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		040F74611D3F1A9E00968E55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		040F74641D3F1A9E00968E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040F74671D3F1A9E00968E55 /* Peek_Dashboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Peek_Dashboard.xcdatamodel; sourceTree = "<group>"; };
 		040F74691D3F1A9E00968E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +55,29 @@
 		040F74731D3F1A9F00968E55 /* Peek DashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peek DashboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040F74771D3F1A9F00968E55 /* Peek_DashboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Peek_DashboardTests.m; sourceTree = "<group>"; };
 		040F74791D3F1A9F00968E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040F74861D3F1EC700968E55 /* IMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMManager.h; path = Model/IMManager.h; sourceTree = "<group>"; };
+		040F74871D3F1EC700968E55 /* IMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMManager.m; path = Model/IMManager.m; sourceTree = "<group>"; };
+		040F74891D3F1EDC00968E55 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Model/AppDelegate.h; sourceTree = "<group>"; };
+		040F748A1D3F1EDC00968E55 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Model/AppDelegate.m; sourceTree = "<group>"; };
+		040F748B1D3F1EDC00968E55 /* IMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMConstants.h; path = Model/IMConstants.h; sourceTree = "<group>"; };
+		040F748D1D3F1EF000968E55 /* IMLoaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMLoaderViewController.h; path = Controller/IMLoaderViewController.h; sourceTree = "<group>"; };
+		040F748E1D3F1EF000968E55 /* IMLoaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMLoaderViewController.m; path = Controller/IMLoaderViewController.m; sourceTree = "<group>"; };
+		040F74901D3F229300968E55 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeychainWrapper.h; path = Model/KeychainWrapper.h; sourceTree = "<group>"; };
+		040F74911D3F229300968E55 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeychainWrapper.m; path = Model/KeychainWrapper.m; sourceTree = "<group>"; };
+		040F74931D3F233A00968E55 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		040F74951D3F433C00968E55 /* IMCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMCreateAccountViewController.h; path = Controller/IMCreateAccountViewController.h; sourceTree = "<group>"; };
+		040F74961D3F433C00968E55 /* IMCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMCreateAccountViewController.m; path = Controller/IMCreateAccountViewController.m; sourceTree = "<group>"; };
+		040F74991D3F4B7700968E55 /* invalid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = invalid.png; path = Bitmap/invalid.png; sourceTree = "<group>"; };
+		040F749A1D3F4B7700968E55 /* valid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = valid.png; path = Bitmap/valid.png; sourceTree = "<group>"; };
+		040F749D1D3F91A400968E55 /* IMClientServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMClientServer.h; sourceTree = "<group>"; };
+		040F749E1D3F91A400968E55 /* IMClientServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMClientServer.m; sourceTree = "<group>"; };
+		04C36BD91D7BC38500B761E0 /* Peek DashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Peek DashboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C36BDB1D7BC38500B761E0 /* Peek_DashboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Peek_DashboardUITests.m; sourceTree = "<group>"; };
+		04C36BDD1D7BC38500B761E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C36BE31D7C191600B761E0 /* IMCreateAccountViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMCreateAccountViewControllerTest.m; sourceTree = "<group>"; };
+		736051AD0F8F68248671DBDB /* libPods-Peek Dashboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Peek Dashboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30F3F75841522F3D766146D /* Pods-Peek Dashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peek Dashboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Peek Dashboard/Pods-Peek Dashboard.debug.xcconfig"; sourceTree = "<group>"; };
+		D3856412090982F2441854EA /* Pods-Peek Dashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peek Dashboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Peek Dashboard/Pods-Peek Dashboard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,10 +85,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040F74941D3F233A00968E55 /* Security.framework in Frameworks */,
+				DFD9897EDCEA0A5A7B39B4E0 /* libPods-Peek Dashboard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		040F74701D3F1A9F00968E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C36BD61D7BC38500B761E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,7 +112,10 @@
 			children = (
 				040F74591D3F1A9E00968E55 /* Peek Dashboard */,
 				040F74761D3F1A9F00968E55 /* Peek DashboardTests */,
+				04C36BDA1D7BC38500B761E0 /* Peek DashboardUITests */,
 				040F74581D3F1A9E00968E55 /* Products */,
+				2E54499FA5DECA995D12E3E0 /* Pods */,
+				61D5B6B19385DE727EF17D87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +124,7 @@
 			children = (
 				040F74571D3F1A9E00968E55 /* Peek Dashboard.app */,
 				040F74731D3F1A9F00968E55 /* Peek DashboardTests.xctest */,
+				04C36BD91D7BC38500B761E0 /* Peek DashboardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,10 +132,10 @@
 		040F74591D3F1A9E00968E55 /* Peek Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				040F745D1D3F1A9E00968E55 /* AppDelegate.h */,
-				040F745E1D3F1A9E00968E55 /* AppDelegate.m */,
-				040F74601D3F1A9E00968E55 /* ViewController.h */,
-				040F74611D3F1A9E00968E55 /* ViewController.m */,
+				040F74981D3F4B6600968E55 /* Bitmap */,
+				040F74821D3F1CC600968E55 /* Model */,
+				040F74831D3F1CD000968E55 /* View */,
+				040F74841D3F1CDA00968E55 /* Controller */,
 				040F74631D3F1A9E00968E55 /* Main.storyboard */,
 				040F74691D3F1A9E00968E55 /* Assets.xcassets */,
 				040F746B1D3F1A9E00968E55 /* LaunchScreen.storyboard */,
@@ -110,8 +159,79 @@
 			children = (
 				040F74771D3F1A9F00968E55 /* Peek_DashboardTests.m */,
 				040F74791D3F1A9F00968E55 /* Info.plist */,
+				04C36BE31D7C191600B761E0 /* IMCreateAccountViewControllerTest.m */,
 			);
 			path = "Peek DashboardTests";
+			sourceTree = "<group>";
+		};
+		040F74821D3F1CC600968E55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				040F748B1D3F1EDC00968E55 /* IMConstants.h */,
+				040F74891D3F1EDC00968E55 /* AppDelegate.h */,
+				040F748A1D3F1EDC00968E55 /* AppDelegate.m */,
+				040F74861D3F1EC700968E55 /* IMManager.h */,
+				040F74871D3F1EC700968E55 /* IMManager.m */,
+				040F749D1D3F91A400968E55 /* IMClientServer.h */,
+				040F749E1D3F91A400968E55 /* IMClientServer.m */,
+				040F74901D3F229300968E55 /* KeychainWrapper.h */,
+				040F74911D3F229300968E55 /* KeychainWrapper.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		040F74831D3F1CD000968E55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		040F74841D3F1CDA00968E55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040F748D1D3F1EF000968E55 /* IMLoaderViewController.h */,
+				040F748E1D3F1EF000968E55 /* IMLoaderViewController.m */,
+				040F74951D3F433C00968E55 /* IMCreateAccountViewController.h */,
+				040F74961D3F433C00968E55 /* IMCreateAccountViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		040F74981D3F4B6600968E55 /* Bitmap */ = {
+			isa = PBXGroup;
+			children = (
+				040F74991D3F4B7700968E55 /* invalid.png */,
+				040F749A1D3F4B7700968E55 /* valid.png */,
+			);
+			name = Bitmap;
+			sourceTree = "<group>";
+		};
+		04C36BDA1D7BC38500B761E0 /* Peek DashboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C36BDB1D7BC38500B761E0 /* Peek_DashboardUITests.m */,
+				04C36BDD1D7BC38500B761E0 /* Info.plist */,
+			);
+			path = "Peek DashboardUITests";
+			sourceTree = "<group>";
+		};
+		2E54499FA5DECA995D12E3E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C30F3F75841522F3D766146D /* Pods-Peek Dashboard.debug.xcconfig */,
+				D3856412090982F2441854EA /* Pods-Peek Dashboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61D5B6B19385DE727EF17D87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040F74931D3F233A00968E55 /* Security.framework */,
+				736051AD0F8F68248671DBDB /* libPods-Peek Dashboard.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040F747C1D3F1A9F00968E55 /* Build configuration list for PBXNativeTarget "Peek Dashboard" */;
 			buildPhases = (
+				1B08D04457C3CED880C291CF /* Check Pods Manifest.lock */,
 				040F74531D3F1A9E00968E55 /* Sources */,
 				040F74541D3F1A9E00968E55 /* Frameworks */,
 				040F74551D3F1A9E00968E55 /* Resources */,
+				DF2B7C4382CCEC1EB01D871F /* Embed Pods Frameworks */,
+				31DF69976BF1F5ECAF2B7DFB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +275,24 @@
 			productReference = 040F74731D3F1A9F00968E55 /* Peek DashboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		04C36BD81D7BC38500B761E0 /* Peek DashboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C36BE21D7BC38500B761E0 /* Build configuration list for PBXNativeTarget "Peek DashboardUITests" */;
+			buildPhases = (
+				04C36BD51D7BC38500B761E0 /* Sources */,
+				04C36BD61D7BC38500B761E0 /* Frameworks */,
+				04C36BD71D7BC38500B761E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C36BDF1D7BC38500B761E0 /* PBXTargetDependency */,
+			);
+			name = "Peek DashboardUITests";
+			productName = "Peek DashboardUITests";
+			productReference = 04C36BD91D7BC38500B761E0 /* Peek DashboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +306,10 @@
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					040F74721D3F1A9F00968E55 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 040F74561D3F1A9E00968E55;
+					};
+					04C36BD81D7BC38500B761E0 = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 040F74561D3F1A9E00968E55;
 					};
@@ -185,6 +330,7 @@
 			targets = (
 				040F74561D3F1A9E00968E55 /* Peek Dashboard */,
 				040F74721D3F1A9F00968E55 /* Peek DashboardTests */,
+				04C36BD81D7BC38500B761E0 /* Peek DashboardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,7 +340,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040F749C1D3F4B7700968E55 /* valid.png in Resources */,
 				040F746D1D3F1A9E00968E55 /* LaunchScreen.storyboard in Resources */,
+				040F749B1D3F4B7700968E55 /* invalid.png in Resources */,
 				040F746A1D3F1A9E00968E55 /* Assets.xcassets in Resources */,
 				040F74651D3F1A9E00968E55 /* Main.storyboard in Resources */,
 			);
@@ -207,17 +355,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04C36BD71D7BC38500B761E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B08D04457C3CED880C291CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31DF69976BF1F5ECAF2B7DFB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peek Dashboard/Pods-Peek Dashboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF2B7C4382CCEC1EB01D871F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peek Dashboard/Pods-Peek Dashboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		040F74531D3F1A9E00968E55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040F74621D3F1A9E00968E55 /* ViewController.m in Sources */,
-				040F745F1D3F1A9E00968E55 /* AppDelegate.m in Sources */,
+				040F74881D3F1EC700968E55 /* IMManager.m in Sources */,
 				040F745C1D3F1A9E00968E55 /* main.m in Sources */,
 				040F74681D3F1A9E00968E55 /* Peek_Dashboard.xcdatamodeld in Sources */,
+				040F74971D3F433C00968E55 /* IMCreateAccountViewController.m in Sources */,
+				040F74921D3F229300968E55 /* KeychainWrapper.m in Sources */,
+				040F748C1D3F1EDC00968E55 /* AppDelegate.m in Sources */,
+				040F748F1D3F1EF000968E55 /* IMLoaderViewController.m in Sources */,
+				040F749F1D3F91A400968E55 /* IMClientServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +432,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C36BE41D7C191600B761E0 /* IMCreateAccountViewControllerTest.m in Sources */,
 				040F74781D3F1A9F00968E55 /* Peek_DashboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C36BD51D7BC38500B761E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C36BDC1D7BC38500B761E0 /* Peek_DashboardUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +452,11 @@
 			isa = PBXTargetDependency;
 			target = 040F74561D3F1A9E00968E55 /* Peek Dashboard */;
 			targetProxy = 040F74741D3F1A9F00968E55 /* PBXContainerItemProxy */;
+		};
+		04C36BDF1D7BC38500B761E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040F74561D3F1A9E00968E55 /* Peek Dashboard */;
+			targetProxy = 04C36BDE1D7BC38500B761E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -345,6 +566,7 @@
 		};
 		040F747D1D3F1A9F00968E55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30F3F75841522F3D766146D /* Pods-Peek Dashboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Peek Dashboard/Info.plist";
@@ -356,6 +578,7 @@
 		};
 		040F747E1D3F1A9F00968E55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3856412090982F2441854EA /* Pods-Peek Dashboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Peek Dashboard/Info.plist";
@@ -389,6 +612,28 @@
 			};
 			name = Release;
 		};
+		04C36BE01D7BC38500B761E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Peek DashboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.islandMedia.Peek-DashboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Peek Dashboard";
+			};
+			name = Debug;
+		};
+		04C36BE11D7BC38500B761E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Peek DashboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.islandMedia.Peek-DashboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Peek Dashboard";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -408,12 +653,22 @@
 				040F747E1D3F1A9F00968E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040F747F1D3F1A9F00968E55 /* Build configuration list for PBXNativeTarget "Peek DashboardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				040F74801D3F1A9F00968E55 /* Debug */,
 				040F74811D3F1A9F00968E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C36BE21D7BC38500B761E0 /* Build configuration list for PBXNativeTarget "Peek DashboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C36BE01D7BC38500B761E0 /* Debug */,
+				04C36BE11D7BC38500B761E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

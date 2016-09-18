@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "IMManager.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Init Manager
+    [[IMManager sharedClient] checkLoginLogout];
+    
+    // Init Cache
+    NSURLCache *urlCache = [[NSURLCache alloc]
+                            initWithMemoryCapacity:1024*1024*4  // 1MB mem cache
+                            diskCapacity:1024*1024*100          // 100MB disk cache
+                            diskPath:nil];
+    
+    [NSURLCache setSharedURLCache:urlCache];
+    
     return YES;
 }
 

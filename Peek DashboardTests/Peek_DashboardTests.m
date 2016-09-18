@@ -7,8 +7,12 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "IMLoaderViewController.h"
+#import "AppDelegate.h"
 
 @interface Peek_DashboardTests : XCTestCase
+
+@property (nonatomic, weak) IMLoaderViewController *viewController;
 
 @end
 
@@ -17,6 +21,10 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    UIApplication *application = [UIApplication sharedApplication];
+    AppDelegate *appDelegate = [application delegate];
+    UIWindow *window = [appDelegate window];
+    self.viewController = (IMLoaderViewController*)[window rootViewController];
 }
 
 - (void)tearDown {
@@ -24,9 +32,11 @@
     [super tearDown];
 }
 
-- (void)testExample {
+- (void)testIMLoaderViewControllerIsNotNil {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+//    XCAssertNotNil(self.viewController, @"ViewController is not set");
+    XCTAssertNotNil(self.viewController, @"ViewController is not set");
 }
 
 - (void)testPerformanceExample {

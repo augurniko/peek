@@ -38,6 +38,16 @@
                ReferencedContainer = "container:Peek Dashboard.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04C36BD81D7BC38500B761E0"
+               BuildableName = "Peek DashboardUITests.xctest"
+               BlueprintName = "Peek DashboardUITests"
+               ReferencedContainer = "container:Peek Dashboard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
